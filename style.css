@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(186, 228, 244);
+}
+
+button {
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 10%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 191, 191);
+    transition: transform 0.3s ease-in-out;
+}
+
+.button1:hover {
+    transform: translateY(100px);
+}
+
+.button2:hover {
+    transform: scaleX(0.5) scaleY(2);
+}
+
+.button3:hover {
+    transform: rotate(360deg);
+}
+
+.button4:hover {
+    transform: rotateX(10deg) rotateY(30deg);
+}
+
+.button5:hover {
+    transform: scale(0.5, 0.5) skewX(-40deg);
+}
